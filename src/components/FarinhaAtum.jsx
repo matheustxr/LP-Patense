@@ -3,8 +3,8 @@ import farinha from "../assets/images/FarinhaAtum.png"
 export default function FarinhaAtum(){
     return(
         <>
-            <section className=" px-4 py-14  skew-y-12 bg-green-700 lg:h-[600px] mt-36 lg:py-24 lg:px-40 lg:flex-row">
-                <div className="flex  flex-col mt-10 skew-y-[-12deg] lg:flex-row">
+            <section className=" px-4 py-14  skew-y-[8deg] bg-yellow-600 lg:h-[600px] mt-18 lg:py-24 lg:px-40 lg:flex-row">
+                <div className="flex  flex-col mt-10 skew-y-[-8deg] lg:flex-row">
                     <div className="w-full lg:w-1/2">
                         <img src={farinha} alt="" />
                     </div>

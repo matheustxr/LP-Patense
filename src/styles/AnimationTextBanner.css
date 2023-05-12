@@ -3,14 +3,20 @@
 }
 
 @keyframes animationText3Danim{
-    0% {
-      transform: translateY(0);
-      transform-origin: 50% 50%;
-      text-shadow: none;
-    }
-    100% {
-      transform: translateY(-50px);
-      transform-origin: 50% 50%;
-      text-shadow: 0 1px 0 #737373, 0 2px 0 #737373, 0 3px 0 #737373, 0 4px 0 #737373, 0 5px 0 #737373, 0 6px 0 #737373, 0 7px 0 #737373, 0 8px 0 #737373, 0 9px 0 #737373, 0 50px 30px rgb(5, 5, 5);
-    }
+  0% {
+    transform: translateY(0);
+    transform-origin: 50% 50%;
+    text-shadow: none;
   }
+  100% {
+    transform: translateY(-50px);
+    transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #737373, 0 2px 0 #737373, 0 3px 0 #737373, 0 4px 0 #737373, 0 5px 0 #737373, 0 6px 0 #737373, 0 7px 0 #737373, 0 8px 0 #737373, 0 9px 0 #737373, 0 50px 30px rgb(5, 5, 5);
+  }
+}
+
+@media (max-width: 1023px) {
+  .swiper-button-next, .swiper-button-prev{
+      display: none;
+  }
+}
