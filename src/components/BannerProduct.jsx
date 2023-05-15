@@ -12,7 +12,7 @@ import tlou2 from '../assets/images/tlou2.jpg'
 import '../styles/AnimationTextBanner.css'
 
 // import required modules
-import {  Pagination, Navigation } from "swiper";
+import { Autoplay, Pagination, Navigation } from "swiper";
 
 export default function BannerProduct(){
 
@@ -28,8 +28,8 @@ export default function BannerProduct(){
                 clickable: true,
                 }}
                 navigation={true}
-                modules={[ Pagination, Navigation]}//Autoplay
-                className=" w-full h-[600px]"
+                modules={[Autoplay, Pagination, Navigation]}
+                className=" w-full h-screen"
                 
             >
                 <SwiperSlide style={{ backgroundImage: `url(${tlou1})` }} className="bg-cover bg-center">
