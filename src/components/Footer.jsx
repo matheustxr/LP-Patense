@@ -1,8 +1,4 @@
 
-
-
-
-
 export default function Footer(){
     return(
         <footer className="w-full py-4 flex flex-col lg:flex-row lg:justify-around text-white bg-gray-900">

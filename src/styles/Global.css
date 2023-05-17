@@ -18,15 +18,15 @@
 
 
 
-:where(.css-dev-only-do-not-override-15rg2km).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
     color: #16a34a ;
     text-shadow: 0 0 0.25px currentcolor;
 }
 
-:where(.css-dev-only-do-not-override-15rg2km).ant-tabs .ant-tabs-tab:hover {
+.ant-tabs .ant-tabs-tab:hover {
     color: #ca8a04;
 }
 
-:where(.css-dev-only-do-not-override-15rg2km).ant-tabs .ant-tabs-ink-bar {
+.ant-tabs .ant-tabs-ink-bar {
     background: #16a34a;
 }
