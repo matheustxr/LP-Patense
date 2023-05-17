@@ -1,4 +1,4 @@
-import farinha from "../assets/images/FarinhaAtum.png"
+import farinha from "../assets/images/FarinhaAtum.webp"
 
 export default function FarinhaAtum(){
     return(
