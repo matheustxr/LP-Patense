@@ -91,7 +91,7 @@ export default function BannerProduct(){
                         <div  className="w-full lg:w-1/2 h-full  flex items-center justify-center">
                             <div className="lg:w-[75%] flex flex-col items-center p-5 rounded backdrop-blur-sm bg-">
                                 <h1 className="text-[60px] text-white text-center animationText3D">Nome do Produto</h1>
-                                <p className=" w-[90%] lg:w-2/3 text-white">
+                                <p className=" w-[90%] lg:w-2/3 text-white text-xl">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, facere fuga. Animi sapiente architecto excepturi facilis assumenda? Magni impedit sed nesciunt vitae autem harum esse eaque, laudantium accusantium quis veniam!
                                 </p>
                                 <div className="p-[3px] w-max mt-8 bg-gradient-to-tl from-green-600 to-yellow-500 rounded-2xl">
@@ -108,7 +108,7 @@ export default function BannerProduct(){
                         <div  className="w-full lg:w-1/2 h-full  flex items-center justify-center">
                             <div className="lg:w-[75%] flex flex-col items-center p-5 rounded backdrop-blur-sm">
                                 <h1 className="text-[60px] text-white text-center animationText3D">Nome do Produto</h1>
-                                <p className="w-[90%] lg:w-2/3 text-white">
+                                <p className="w-[90%] lg:w-2/3 text-white text-xl">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, facere fuga. Animi sapiente architecto excepturi facilis assumenda? Magni impedit sed nesciunt vitae autem harum esse eaque, laudantium accusantium quis veniam!
                                 </p>
                                 <div className="p-[3px] w-max mt-8 bg-gradient-to-tl from-green-600 to-yellow-500 rounded-2xl">
